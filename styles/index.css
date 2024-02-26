@@ -1,7 +1,8 @@
 .about-us {
-  background-color: #ddd;
+  background-color: #4d4d4d;
   padding: 20px;
   margin: 20px;
+  color: white; /* Added line to set text color to white */
 }
 
 .shop-now button {
@@ -15,13 +16,15 @@
 }
 
 .customer-reviews {
-  background-color: #ddd;
+  background-color: #4d4d4d;
   padding: 20px;
   margin: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: white; /* Added line to set text color to white */
 }
+
 .customer-reviews h2 {
   display: block;
   margin-bottom: 10px; 
@@ -34,6 +37,7 @@
 .customer-reviews td {
   padding: 20px;
 }
+
 .review {
   border: 1px;
   border-style: solid;

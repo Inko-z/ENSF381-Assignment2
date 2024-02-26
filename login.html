@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form - Laflamme Company</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/index.css">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -19,12 +21,13 @@
         }
 
         header {
-            background-color: #1a1a1a;
-            color: #ff7700;
+            background-color: #333;
             padding: 20px;
-            text-align: center;
+            margin: 0;
             display: flex;
+            justify-content: space-between;
             align-items: center;
+            color: aliceblue;
         }
 
         h1 {
@@ -35,27 +38,16 @@
         }
 
         nav {
-            background-color: #1a1a1a;
-            padding: 10px;
-            text-align: center;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
+            width: 100%;
+            background-color: #333;
         }
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
-
-        nav ul li {
-            margin-right: 20px;
-        }
-
-        nav ul li a {
+        nav a {
+            padding: 10px 20px;
+            color: aliceblue;
             text-decoration: none;
-            color: #ff7700;
         }
 
         .container {
@@ -68,7 +60,7 @@
             border: 1px solid #4d4d4d;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            background-color: #ddd;
+            background-color: #5b5857;
         }
 
         label {
@@ -116,29 +108,32 @@
         }
 
         footer {
-            background-color: #1a1a1a;
+            background-color: #333;
             padding: 10px;
             text-align: center;
-            color: #fff;
+            color: white;
             width: 100%;
-            margin-top: auto; /* Move to the bottom */
+            margin-top: auto;
         }
     </style>
 </head>
 
 <body>
-
-    <header>
-        <h1>Laflamme Company</h1>
+    <header class="header">
+        <div class="logo">
+            <!-- Logo has been designed by LOGO.com -->
+            <img src="images/mainimage.jpg" alt="Company Logo" width = "100">
+        </div>
+        <div class="company-name">
+            Laflamme company
+        </div>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="index.html">Index</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="login.html">Login</a></li>
-        </ul>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="login.html" class="nav-link">Login</a> 
     </nav>
 
     <main>
@@ -161,4 +156,7 @@
         <p>&copy; 2024 LaFlamme Company. All Rights Reserved.</p>
     </footer>
 
-</body
+</body>
+
+</html>
+
