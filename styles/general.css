@@ -8,6 +8,7 @@ body {
     color: #fff;
 }
 
+
 header {
     background-color: #1a1a1a;
     color: #ff7700;
@@ -19,6 +20,12 @@ h1 {
     font-family: 'Copperplate Gothic Bold', sans-serif;
     letter-spacing: 2px;
     margin-bottom: 5px;
+}
+
+h2 {
+    background-color: #1a1a1a;
+    padding: 10px;
+    text-align: center;
 }
 
 nav {
