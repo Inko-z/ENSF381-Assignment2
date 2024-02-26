@@ -5,56 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form - Laflamme Company Contacts</title>
-    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/contact.css">
 </head>
-<header>
-    <h1><img src="images/mainimage.jpg" width="25%" alt="company logo">Laflamme company Contacts</h1>
-</header>
-<div>
+<body>
+    <header class="header">
+        <div class="logo">
+            <!-- Logo has been designed by LOGO.com -->
+            <img src="images/mainimage.jpg" alt="Company Logo" width = "100">
+        </div>
+        <div class="company-name">
+            Laflamme company
+        </div>
+    </header>
     <nav>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="login.html" class="nav-link">Login</a> 
+    </nav>
+    <main>
+        <h2>Send us an email!</h2>
         <div>
+            <div class="container">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="email">Email</label><br>
+                            <input type="text" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Messege</label><br>
+                        <input type="text" id="messege" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+            <p>
+                email: LaflammeCompany@Laflamme.com<br>
+                Phone: 1-587-999-9999
+            </p>
+        </div>
+        <div>
+            <h2>Check out our socials!</h2>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <button><a href="login.html">Login</a></button>
+                <li>Instagram: <a href="https://www.instagram.com/">@LaflammeCompany</a></li>
+                <li>FaceBook: <a href="https://www.facebook.com/">@LaflammeCompany</a></li>
             </ul>
         </div>
-    </nav>
-</div>
-<main>
-    <h2>Send us an email!</h2>
-    <div>
-        <div class="container">
-                <form action="">
-                    <div class="form-group">
-                        <label for="email">Email</label><br>
-                        <input type="text" id="email" class="form-control" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Messege</label><br>
-                    <input type="text" id="messege" class="form-control" required>
-                 </div>
-                <button type="submit" class="btn">Send</button>
-            </form>
-        </div>
-        <p>
-            email: LaflammeCompany@Laflamme.com<br>
-            Phone: 1-587-999-9999
-        </p>
-    </div>
-    <div>
-        <h2>Check out our socials!</h2>
-        <ul>
-            <li>Instagram: <a href="https://www.instagram.com/">@LaflammeCompany</a></li>
-            <li>FaceBook: <a href="https://www.facebook.com/">@LaflammeCompany</a></li>
-        </ul>
-    </div>
 
-    <footer>
-    <p>&copy;    2024 LaFlamme Company. All Rights Reserved.  </p>  
+        <footer>
+        <p>&copy;    2024 LaFlamme Company. All Rights Reserved.  </p>  
 
-    </footer>
-</main>
+        </footer>
+    </main>
+</body>
 </html>
 
