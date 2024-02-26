@@ -44,8 +44,10 @@ main {
     align-items: center;
 }
 footer {
+    box-sizing: border-box;
     background-color: #333;
     padding: 10px;
     margin: 0;
     text-align: center;
+    width: 100%;
   }

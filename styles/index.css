@@ -20,6 +20,11 @@
   margin: 20px;
   display: flex;
   align-items: center;
+  flex-direction: column;
+}
+.customer-reviews h2 {
+  display: block;
+  margin-bottom: 10px; 
 }
 
 .customer-reviews table {
@@ -28,5 +33,11 @@
 
 .customer-reviews td {
   padding: 20px;
+}
+.review {
+  border: 1px;
+  border-style: solid;
+  padding: 10px;
+  text-align: center;
 }
 
