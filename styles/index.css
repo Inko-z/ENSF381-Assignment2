@@ -1,0 +1,32 @@
+.about-us {
+  background-color: #ddd;
+  padding: 20px;
+  margin: 20px;
+}
+
+.shop-now button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.customer-reviews {
+  background-color: #ddd;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.customer-reviews table {
+  width: 100%;
+}
+
+.customer-reviews td {
+  padding: 20px;
+}
+
