@@ -2,97 +2,185 @@
     Assignment1_ENSF381_L03_Group32
     Made by: Rodolfo Gil-Pereira(30183908)
              Faris Janjua(30154612)-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!-- Add meta tags, title, and link to styles.css here -->
-<meta charset="UTF-8">
-<meta name="description" content="Company home page">
-<meta name="keywords" content="Home page, company, links">
-<meta name="author" content="Rodolfo Gil, Faris Janjua">
-<link rel="stylesheet" href="styles/general.css">
-<link rel="stylesheet" href="styles/index.css">
-</head>
-<!-- Logo, website name go here -->
-<header>
-    <h1><img src="images/mainimage.jpg" width="25%" alt="company logo">Laflamme company</h1>
-</header>
-<!-- nav links go here -->
-<div>
-    <nav>
-        <div>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="products.html">Products</a></li>
-                <button><a href="login.html">Login</a></button>
-            </ul>
-        </div>
-    </nav>
-</div>
-<main>
-<!-- About Us Section -->
-<section class="about-us">
-<!-- About Us contents go here -->
-    <h2>
-        About Us
-    </h2>
-    <p>
-        Laflamme company is a small startup based in Calgary.<br>
-        We specialize in custom and high quality clothing garments,<br>
-        and pride ourselves in our great customer service and quality of work!
-    </p> 
-</section>
-
-<section class="shop-now">
-<!-- Shop Now Button (as a link to the Products page) -->
-    <button>
-        <a href="products.html">Shop Now!</a>
-    </button>
-</section>
-
-<!-- Customer Reviews/Testimonials Section -->
-<section class="customer-reviews">
-<!-- Add reviews as needed -->
-    <h2>Reviews</h2>
-    <table>
-        <tr>
-            <td>
-                <div>
-                    <div>
-                        <h5>William D. Rosehart</h5>
-                        <img src="images/williamRosaheart.jpg" alt="profile picture">
-                    </div>
-                    <div>
-                        <p>"Love the products. They have such high quality<br> 
-                            and they respond quickly to messeges!<br>
-                            on an unrelated side note.<br>I don't think ENSF 381 should have a final<br>
-                            A final project makes the most sense"
-                        </p>
-                    </div>
-                </div>
-            </td>
-            <td>
-                <div>
-                    <div>
-                        <h5>Melissa "Lizzo" Jefferson</h5>
-                        <img src="images/Lizzo.jpg" width="119" alt="profile picture">
-                    </div>
-                    <div>
-                        <p>"They are so good!!!!!!!!!<br> 
-                            I just love how they have all sizes!!!<br>
-                            Especially the XXXXL that fits me perfectly :)"
-                        </p>
-                    </div>
-                </div>
-            </td>
-        </tr>
-    </table>
-    
-</section>
-</main>
-<footer>
-<!-- Copyright notice goes here -->
-<p>&copy; 2024 LaFlamme Company. All Rights Reserved.</p>
-</footer>
-</body>
-</html>
+             <!DOCTYPE html>
+             <html lang="en">
+             
+             <head>
+                 <!-- Add meta tags, title, and link to styles.css here -->
+                 <meta charset="UTF-8">
+                 <meta name="description" content="Company home page">
+                 <meta name="keywords" content="Home page, company, links">
+                 <meta name="author" content="Rodolfo Gil, Faris Janjua">
+                 <link rel="stylesheet" href="styles/general.css">
+                 <link rel="stylesheet" href="styles/index.css">
+                 <style>
+                     body {
+                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                         margin: 0;
+                         padding: 0;
+                         box-sizing: border-box;
+                         background-color: #2c2c2c;
+                         color: #fff;
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                     }
+             
+                     header {
+                         background-color: #333;
+                         padding: 20px;
+                         margin: 0;
+                         display: flex;
+                         justify-content: space-between;
+                         align-items: center;
+                         width: 100%;
+                     }
+             
+                     h1 img {
+                         width: 25%;
+                     }
+             
+                     nav {
+                         display: flex;
+                         justify-content: space-around;
+                         width: 100%;
+                         background-color: #333;
+                     }
+             
+                     nav a {
+                         padding: 10px 20px;
+                         text-decoration: none;
+                         color: #fff;
+                     }
+             
+                     main {
+                         display: flex;
+                         flex-direction: column;
+                         align-items: center;
+                     }
+             
+                     .about-us {
+                         background-color: #ddd;
+                         padding: 20px;
+                         margin: 20px;
+                     }
+             
+                     .shop-now button {
+                         background-color: #4CAF50;
+                         color: white;
+                         padding: 10px;
+                         border: none;
+                         border-radius: 5px;
+                         margin: 20px;
+                         cursor: pointer;
+                     }
+             
+                     .customer-reviews {
+                         background-color: #ddd;
+                         padding: 20px;
+                         margin: 20px;
+                         display: flex;
+                         align-items: center;
+                     }
+             
+                     .customer-reviews table {
+                         width: 100%;
+                     }
+             
+                     .customer-reviews td {
+                         padding: 20px;
+                     }
+             
+                     footer {
+                         background-color: #333;
+                         padding: 10px;
+                         margin: 0;
+                         text-align: center;
+                     }
+                 </style>
+             </head>
+             
+             <body>
+             
+                 <header>
+                     <h1>
+                         <img src="images/mainimage.jpg" alt="company logo">
+                         Laflamme company
+                     </h1>
+                 </header>
+             
+                 <div>
+                     <nav>
+                         <a href="contact.html">Contact</a>
+                         <a href="products.html">Products</a>
+                         <button><a href="login.html">Login</a></button>
+                     </nav>
+                 </div>
+             
+                 <main>
+                     <!-- About Us Section -->
+                     <section class="about-us">
+                         <!-- About Us contents go here -->
+                         <h2>About Us</h2>
+                         <p>
+                             Laflamme company is a small startup based in Calgary.<br>
+                             We specialize in custom and high-quality clothing garments,<br>
+                             and pride ourselves in our great customer service and quality of work!
+                         </p>
+                     </section>
+             
+                     <section class="shop-now">
+                         <!-- Shop Now Button (as a link to the Products page) -->
+                         <button>
+                             <a href="products.html">Shop Now!</a>
+                         </button>
+                     </section>
+             
+                     <!-- Customer Reviews/Testimonials Section -->
+                     <section class="customer-reviews">
+                         <!-- Add reviews as needed -->
+                         <h2>Reviews</h2>
+                         <table>
+                             <tr>
+                                 <td>
+                                     <div>
+                                         <div>
+                                             <h5>William D. Rosehart</h5>
+                                             <img src="images/williamRosaheart.jpg" alt="profile picture">
+                                         </div>
+                                         <div>
+                                             <p>"Love the products. They have such high quality<br>
+                                                 and they respond quickly to messages!<br>
+                                                 on an unrelated side note.<br>I don't think ENSF 381 should have a final<br>
+                                                 A final project makes the most sense"
+                                             </p>
+                                         </div>
+                                     </div>
+                                 </td>
+                                 <td>
+                                     <div>
+                                         <div>
+                                             <h5>Melissa "Lizzo" Jefferson</h5>
+                                             <img src="images/Lizzo.jpg" width="119" alt="profile picture">
+                                         </div>
+                                         <div>
+                                             <p>"They are so good!!!!!!!!!<br>
+                                                 I just love how they have all sizes!!!<br>
+                                                 Especially the XXXXL that fits me perfectly :)"
+                                             </p>
+                                         </div>
+                                     </div>
+                                 </td>
+                             </tr>
+                         </table>
+                     </section>
+                 </main>
+             
+                 <footer>
+                     <!-- Copyright notice goes here -->
+                     <p>&copy; 2024 LaFlamme Company. All Rights Reserved.</p>
+                 </footer>
+             
+             </body>
+             
+             </html>
