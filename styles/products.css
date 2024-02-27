@@ -23,8 +23,8 @@
 }
 
 .product-img {
-    max-width: 100%;
-    height: auto; /* Ensures the image maintains its aspect ratio */
+    width: 100%;  /* Set a specific width */
+    height: auto; /* Maintain the aspect ratio */
     border-radius: 8px;
     margin-bottom: 10px;
 }
