@@ -18,7 +18,11 @@
   }
   
   /* Social Media Links Hover Effect */
-  .social-media-link:hover {
+  .social-media-link {
     color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+  .social-media-link:hover {
+    text-decoration: underline;
   }
-  
