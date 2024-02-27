@@ -1,8 +1,8 @@
 .about-us {
-  background-color: #4d4d4d;
+  background-color: #ddd;
   padding: 20px;
   margin: 20px;
-  color: white; /* Added line to set text color to white */
+  color: #919494; /* Added line to set text color to white */
 }
 
 .shop-now button {
@@ -16,13 +16,13 @@
 }
 
 .customer-reviews {
-  background-color: #4d4d4d;
+  background-color: #ddd;
   padding: 20px;
   margin: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  color: white; /* Added line to set text color to white */
+  color: #919494; /* Added line to set text color to white */
 }
 
 .customer-reviews h2 {
